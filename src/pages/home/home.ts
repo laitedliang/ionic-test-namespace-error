@@ -7,6 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  timeout: NodeJS.Timer;
+
   constructor(public navCtrl: NavController) {
 
   }
